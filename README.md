@@ -1,2 +1,2 @@
-# Technology_and_programming_techniques
-Laboratory works
+# Лабораторные работы по ТИМП
+
