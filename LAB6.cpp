@@ -14,7 +14,7 @@ private:
 public:
 	Graph(size_t num_r, size_t nodes_num, size_t edges_num);
 	void getData(string& expression);
-	void Dijkstra_algorithm();
+	void Dikctra();
 	~Graph();
 };
 
