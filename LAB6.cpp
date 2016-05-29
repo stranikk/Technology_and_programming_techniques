@@ -33,7 +33,7 @@ int main() {
 		getline(cin, expression);
 		graph.getData(expression);
 	}
-	graph.Dijkstra_algorithm();
+	graph.Dikctra();
 
 	system("pause");
 	return 0;
@@ -62,7 +62,7 @@ void Graph::getData(string& expression) {
 	matrix[stoi(data[0])][stoi(data[1])] = stoi(data[2]);
 }
 
-void Graph::Dijkstra_algorithm() {
+void Graph::Dikctra() {
 	size_t* distances = new size_t[num_nodes];
 	bool* isVisited = new bool[num_nodes];
 
