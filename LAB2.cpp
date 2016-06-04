@@ -66,12 +66,12 @@ int main() {
 				f_out << k << ". " << resultMultiline << endl;	// И выводим его в файл
 				i = 0;
 				fFunMult = false;		// 
-				fClose = true;			// Сбрасываем флаги
+				fClose = true;			// Сбрасываем флаги и строки
 				fOpen = false;			// 
-				resultMultiline = "";  		// И строку
+				resultMultiline = "";  		// 
 			}
 			else {
-				if (i == 0) {			// Зачем i?.. Не помню. Но так работает
+				if (i == 0) {			
 										// Добавляем каждую строку комментария к переменной
 					resultMultiline = resultMultiline + sIn.substr(posFun + 6, posCl - (posFun + 6)) + '\n';
 					i++;			// Видимо, количество строк комментария
